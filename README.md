@@ -2,7 +2,7 @@ This is a Telegram Bot written in Python for mirroring files on the Internet to 
 
 # Features:
 
-## By [Anas](https://github.com/anasty17)
+## By [Anas](https://github.com/NaveenTn49)
 - qBittorrent
 - Select files from Torrent before downloading using qbittorrent
 - Leech (splitting, thumbnail for each user, setting as document or as media for each user)
@@ -26,7 +26,7 @@ This is a Telegram Bot written in Python for mirroring files on the Internet to 
 - Docker image support for `linux/amd64, linux/arm64, linux/arm/v7, linux/arm/v6` (**Note**: Use `anasty17/mltb-oracle:latest` for oracle or if u faced problem with arm64 docker run)
 - Update bot at startup and with restart command using `UPSTREAM_REPO`
 - Qbittorrent seed until reaching specific ratio or time
-- Rss feed and filter. Based on this repository [rss-chan](https://github.com/hyPnOtICDo0g/rss-chan)
+- Rss feed and filter. Based on this repository [rss-chan](https://github.com/NaveenTn49/mirror-leech-telegram-bot)
 - Save leech settings including thumbnails in database
 - Many bugs have been fixed
 
@@ -66,7 +66,7 @@ This is a Telegram Bot written in Python for mirroring files on the Internet to 
 
 - Clone this repo:
 ```
-git clone https://github.com/anasty17/mirror-leech-telegram-bot mirrorbot/ && cd mirrorbot
+git clone https://github.com/NaveenTn49/mirror-leech-telegram-bot/ && cd mirrorbot
 ```
 - For Debian based distros
 ```
@@ -256,7 +256,7 @@ sudo docker stop id
 
 ### Deploying on VPS Using docker-compose
 
-**NOTE**: If you want to use port other than 80, change it in [docker-compose.yml](https://github.com/anasty17/mirror-leech-telegram-bot/blob/master/docker-compose.yml) also.
+**NOTE**: If you want to use port other than 80, change it in [docker-compose.yml](https://github.com/NaveenTn49/mirror-leech-telegram-bot) also.
 
 ```
 sudo apt install docker-compose
@@ -283,7 +283,7 @@ sudo docker-compose start
 ------
 
 ## Deploying on Heroku
-<p><a href="https://github.com/anasty17/mirror-leech-telegram-bot/tree/heroku"> <img src="https://img.shields.io/badge/Deploy%20Guide-blueviolet?style=for-the-badge&logo=heroku" width="170""/></a></p>
+<p><a href="https://github.com/NaveenTn49/mirror-leech-telegram-bot"> <img src="https://img.shields.io/badge/Deploy%20Guide-blueviolet?style=for-the-badge&logo=heroku" width="170""/></a></p>
 
 ------
 
